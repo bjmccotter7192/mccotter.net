@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  public title: string = 'McCotter.net';
-  public homeIntro = "Welcome to \nmccotter.net!! \nTake a look around.";
+  public homeIntro = "DOWN \nFOR \nFIXIN";
   
   constructor() {}
 
