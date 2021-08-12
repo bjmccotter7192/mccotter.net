@@ -9,15 +9,51 @@
     height: 30em;
     width: 30em;
     border-radius: 100%;
+    background-image: url("../../assets/pics/darth-maul.jpeg");
     background-color: #0B2265;
 
 }
 
 .home-page-intro{
+    margin: 0;
     position: absolute;
-    transform: translate(-50%, 60%);
+    top: 85%;  
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 3rem;
+}
+
+.darth-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mdi-home-city {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    left: 0;
+    top: 0;
+    padding-left: .5em;
+    padding-top: .5em;
+}
+
+.mdi-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: .5em;
+    padding-top: .5em;
+    color: white;
+    font-size: 2em;
 }
