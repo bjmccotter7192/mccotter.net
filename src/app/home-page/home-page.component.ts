@@ -14,4 +14,15 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollToNyGiants(){
+    document.getElementById("ny-giants-container").scrollIntoView();
+  }
+
+  scrollToWashNats(){
+    document.getElementById("wash-nats-container").scrollIntoView();
+  }
+
+  scrollToDiscGolf(){
+    document.getElementById("disc-golf-container").scrollIntoView();
+  }
 }

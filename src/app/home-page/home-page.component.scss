@@ -1,4 +1,4 @@
-.home-container {
+#home-container {
     padding: 0;
     margin: 0;
     min-height: 100vh;
@@ -6,20 +6,14 @@
     position: relative;
 }
 
-.center-circle{
-    margin: 0;
+.page-buttons{
     position: absolute;
-    top: 50%;  
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-    height: 30em;
-    width: 30em;
-    border-radius: 100%;
-    background-image: url("../../assets/pics/darth-maul.jpeg");
-    background-color: #0B2265;
-
+    top: 0;
+    padding-top: .5em;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home-page-intro{
@@ -64,4 +58,19 @@
     padding-top: .5em;
     color: white;
     font-size: 2em;
+}
+
+.ny-giants-button:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.wash-nats-button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.disc-golf-button:hover{
+    color: yellow;
+    cursor: pointer;
 }

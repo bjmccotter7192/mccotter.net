@@ -1,10 +1,15 @@
-<div class="home-container">
+<div id="home-container">
     <img src="../../assets/pics/darth-maul.jpeg" alt="Darth-Maul" class="darth-center">
     
     <div class="home-page-intro">
         {{homeIntro}}
     </div>
-    
-    <i class="mdi mdi-home-city"></i>
-    <i class="mdi mdi-menu"></i>
+
+    <div class="page-buttons">
+        <div class="columns has-text-centered">
+            <div class="column ny-giants-button" (click)="scrollToNyGiants()">NY Giants</div>
+            <div class="column wash-nats-button" (click)="scrollToWashNats()">Washington Nationals</div>
+            <div class="column disc-golf-button" (click)="scrollToDiscGolf()">Disc Golf</div>
+        </div>
+    </div>
 </div>

@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DiscGolfComponent } from './disc-golf/disc-golf.component';
+import { NyGiantsComponent } from './ny-giants/ny-giants.component';
+import { WashNatsComponent } from './wash-nats/wash-nats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    DiscGolfComponent
+    DiscGolfComponent,
+    NyGiantsComponent,
+    WashNatsComponent
   ],
   imports: [
     BrowserModule,
