@@ -51,6 +51,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd mccotter-net-docker-compose
+          cd mccotter-net-deploy
           ls -l
           ./deploy.sh
